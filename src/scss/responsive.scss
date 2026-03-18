@@ -1,0 +1,37 @@
+@use 'sass:map';
+
+$breakpoints: (
+    'mobile': 480px,
+    'tablet': 768px,
+    'laptop': 1024px,
+    'desktop': 1366px,
+    'large': 1920px,
+);
+
+$container-widths: (
+    'mobile': 100%,
+    'tablet': 700px,
+    'laptop': 900px,
+    'desktop': 980px,
+    'large': 1300px,
+);
+
+@mixin responsive($breakpoint) {
+    @if map.has-key($breakpoints, $breakpoint) {
+        @media (max-width: map.get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    }
+}
+
+@mixin responsive-min($breakpoint) {
+    @if map.has-key($breakpoints, $breakpoint) {
+        @media (min-width: map.get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    }
+}
+
+@function get-container-width($breakpoint) {
+    @return map.get($container-widths, $breakpoint);
+}
