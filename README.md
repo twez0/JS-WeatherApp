@@ -13,13 +13,13 @@ A dynamic, real-time weather web application that adapts its visual interface ba
 
 ## Key Features
 
-*   📍 **Smart Geolocation:** Automatically detects user location using `Geoapify API` and the browser's `Navigator Geolocation`.
-*   🔍 **Global Search:** Instant weather updates for any city worldwide with error handling for invalid inputs.
-*   🌓 **Dynamic Themes:** 4 distinct visual modes (Sunrise, Day, Sunset, Night) that sync with the local time of the selected city.
-*   🌧️ **Immersive Effects:** Visual layers for rain, mist, and varying cloud density implemented via dynamic CSS class manipulation.
-*   🌡️ **Unit Conversion:** Toggle seamlessly between Celsius (°C) and Fahrenheit (°F).
-*   📊 **Hourly Forecast:** Detailed cards showing upcoming weather, including humidity, pressure, wind gusts, and cloud cover.
-*   💾 **Persistence:** Remembers the last searched city using `localStorage`.
+*   **Smart Geolocation:** Automatically detects user location using `Geoapify API` and the browser's `Navigator Geolocation`.
+*   **Global Search:** Instant weather updates for any city worldwide with error handling for invalid inputs.
+*   **Dynamic Themes:** 4 distinct visual modes (Sunrise, Day, Sunset, Night) that sync with the local time of the selected city.
+*   **Immersive Effects:** Visual layers for rain, mist, and varying cloud density implemented via dynamic CSS class manipulation.
+*   **Unit Conversion:** Toggle seamlessly between Celsius (°C) and Fahrenheit (°F).
+*   **Hourly Forecast:** Detailed cards showing upcoming weather, including humidity, pressure, wind gusts, and cloud cover.
+*   **Persistence:** Remembers the last searched city using `localStorage`.
 
 ## Technical Stack
 
