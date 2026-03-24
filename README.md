@@ -7,7 +7,7 @@
 
 A dynamic, real-time weather web application that adapts its visual interface based on local time and current weather conditions.
 
-[Live Demo](#) (https://js-weather-app-sigma.vercel.app/)
+[Live Demo](https://js-weather-app-sigma.vercel.app/)
 
 ---
 
